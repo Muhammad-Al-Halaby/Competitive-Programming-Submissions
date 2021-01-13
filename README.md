@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1070 | [C - The Delivery Dilemma](https://codeforces.com/contest/1443/problem/C) | [GNU C++17](./codeforces/1443/C.cpp) | `binary search` `greedy` `sortings` `*1400` | Jan/13/2021 18:15 | 
 1069 | [D - Winter is here](https://codeforces.com/contest/839/problem/D) | [GNU C++17](./codeforces/839/D.cpp) | `combinatorics` `dp` `math` `number theory` `*2200` | Jan/11/2021 03:58 | 
 1068 | [C - Anti-Division](https://atcoder.jp/contests/abc131/tasks/abc131_c) | [C++ (GCC 9.2.1)](./atcoder/abc131/C.cpp) | `AtCoder` `*300` | Jan/11/2021 00:03 | 
 1067 | [D - Factorization](https://atcoder.jp/contests/abc110/tasks/abc110_d) | [C++ (GCC 9.2.1)](./atcoder/abc110/D.cpp) | `AtCoder` `*400` | Jan/10/2021 23:31 | 
