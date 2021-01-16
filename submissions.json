@@ -3733,6 +3733,24 @@
     ],
     "timestamp": "Jan/13/2021 18:15"
   },
+  "CF104539937": {
+    "contest_id": 948,
+    "language": "GNU C++17",
+    "path": "codeforces\\948\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Primal Sport",
+    "problem_url": "https://codeforces.com/contest/948/problem/B",
+    "submission_id": "CF104539937",
+    "submission_url": "https://codeforces.com/contest/948/submission/104539937",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Jan/16/2021 22:27"
+  },
   "CF11129045": {
     "contest_id": 4,
     "language": "GNU C++",
