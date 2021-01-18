@@ -52,9 +52,8 @@ int a[N], freq[N], ans[N];
 
 void dfs(int u, int p, int depth, int mx){
 
-    for(auto &d : divisors[a[u]])   freq[d]++;
-    
     int mx1 = 0, mx2 = 0;
+    for(auto &d : divisors[a[u]])   freq[d]++;
     for(auto &d : divisors[a[u]])   mx1 = max(mx1, (freq[d] == depth + 1 ? d : 0));
     for(auto &d : divisors[a[u]])   mx2 = max(mx2, (freq[d] == depth ? d : 0));
 
