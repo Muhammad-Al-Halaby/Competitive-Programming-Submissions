@@ -3791,6 +3791,25 @@
     ],
     "timestamp": "Jan/18/2021 03:28"
   },
+  "CF104847983": {
+    "contest_id": 1474,
+    "language": "GNU C++17",
+    "path": "codeforces\\1474\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Array Destruction",
+    "problem_url": "https://codeforces.com/contest/1474/problem/C",
+    "submission_id": "CF104847983",
+    "submission_url": "https://codeforces.com/contest/1474/submission/104847983",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings"
+    ],
+    "timestamp": "Jan/19/2021 20:57"
+  },
   "CF104848018": {
     "contest_id": 1474,
     "language": "GNU C++17",
