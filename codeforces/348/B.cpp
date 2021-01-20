@@ -35,6 +35,17 @@ struct Adj {
 
 int a[N];
 
+bool overflow(ll x, ll y){
+    return !(y == 0 || x <= LLONG_MAX / y);
+}
+
+bool lcmOverflow(ll x, ll y){
+    if(x == 0 || y == 0)    return 0;
+    ll _gcd = gcd(x, y);
+    x /= _gcd;
+    return overflow(x, y);
+}
+
 ll dfs1(int u, int p, ll x) {
     int cnt = 0;
     neig(adj, u, e, v) {
@@ -42,17 +53,17 @@ ll dfs1(int u, int p, ll x) {
         cnt++;
     }
 
+    if(overflow(cnt, x)) return 0;
+
     ll _lcm = x;
     neig(adj, u, e, v) {
         if (v == p) continue;
-        _lcm = lcm(_lcm, dfs1(v, u, (u == 0 ? x : cnt * x)));
+        ll ret = dfs1(v, u, (u == 0 ? x : cnt * x));
+        if(lcmOverflow(_lcm, ret))   return 0;
+        _lcm = lcm(_lcm, ret);
     }
 
     return _lcm;
-}
-
-bool overflow(ll x, ll y){
-    return !(y == 0 || x <= LLONG_MAX / y);
 }
 
 ll dfs2(int u, int p, ll x, ll mid) {
@@ -62,7 +73,7 @@ ll dfs2(int u, int p, ll x, ll mid) {
         cnt++;
     }
 
-    ll ret = (cnt != 0 ? 0 : (!overflow(x, mid) && x * mid <= a[u] ? a[u] - x * mid : llOO));
+    ll ret = (cnt != 0 ? 0 : (x * mid <= a[u] ? a[u] - x * mid : llOO));
     neig(adj, u, e, v) {
         if (v == p) continue;
         ret += dfs2(v, u, (u == 0 ? x : x / cnt), mid);
@@ -90,7 +101,7 @@ int main() {
 
     ll root = dfs1(0, -1, 1);
 
-    ll l = 0, r = llOO;
+    ll l = 0, r = (root == 0 ? 0 : LLONG_MAX / root);
     while(l <= r){
         ll mid = (l + r) >> 1;
         if(dfs2(0, -1, root, mid) < llOO)
