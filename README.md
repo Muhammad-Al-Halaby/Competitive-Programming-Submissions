@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1078 | [E - Arithmetic Progression](https://codeforces.com/contest/1114/problem/E) | [GNU C++17](./codeforces/1114/E.cpp) | `binary search` `interactive` `number theory` `probabilities` `*2200` | Jan/22/2021 04:42 | 
 1077 | [B - Apple Tree](https://codeforces.com/contest/348/problem/B) | [GNU C++17](./codeforces/348/B.cpp) | `dfs and similar` `number theory` `trees` `*2100` | Jan/20/2021 10:36 | 
 1076 | [D - Recovering BST](https://codeforces.com/contest/1025/problem/D) | [GNU C++17](./codeforces/1025/D.cpp) | `brute force` `dp` `math` `number theory` `trees` `*2100` | Jan/20/2021 07:48 | 
 1075 | [B - Different Divisors](https://codeforces.com/contest/1474/problem/B) | [GNU C++17](./codeforces/1474/B.cpp) | `binary search` `constructive algorithms` `greedy` `math` `number theory` | Jan/19/2021 20:58 | 
