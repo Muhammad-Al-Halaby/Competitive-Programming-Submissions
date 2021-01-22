@@ -57,5 +57,24 @@ int main() {
         }
     }
 
-    ans(l - g * (n - 1), g);
+    int x0 = OO, d;
+    for(ll i = 1;i * i <= g;i++){
+        if(g % i == 0){
+            int j = g / i;
+            ll f1 = l - 1ll * i * (n - 1);
+            ll f2 = l - 1ll * j * (n - 1);
+
+            if(f1 >= 0 && f1 < x0){
+                x0 = f1;
+                d = i;
+            }
+
+            if(f2 >= 0 && f2 < x0){
+                x0 = f2;
+                d = j;
+            }
+        }
+    }
+
+    ans(x0, d);
 }
