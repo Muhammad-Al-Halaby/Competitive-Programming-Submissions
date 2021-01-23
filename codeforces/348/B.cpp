@@ -46,37 +46,35 @@ bool lcmOverflow(ll x, ll y){
     return overflow(x, y);
 }
 
-ll dfs1(int u, int p, ll x) {
+ll dfs1(int u, int p) {
     int cnt = 0;
     neig(adj, u, e, v) {
         if (v == p) continue;
         cnt++;
     }
 
-    if(overflow(cnt, x)) return 0;
-
-    ll _lcm = x;
+    ll _lcm = 1;
     neig(adj, u, e, v) {
         if (v == p) continue;
-        ll ret = dfs1(v, u, (u == 0 ? x : cnt * x));
-        if(lcmOverflow(_lcm, ret))   return 0;
-        _lcm = lcm(_lcm, ret);
+        ll ret = dfs1(v, u);
+        if(overflow(cnt, ret) || lcmOverflow(_lcm, cnt * ret))   return 0;
+        _lcm = lcm(_lcm, cnt * ret);
     }
 
     return _lcm;
 }
 
-ll dfs2(int u, int p, ll x, ll mid) {
+ll dfs2(int u, int p, ll x) {
     int cnt = 0;
     neig(adj, u, e, v) {
         if (v == p) continue;
         cnt++;
     }
 
-    ll ret = (cnt != 0 ? 0 : (x * mid <= a[u] ? a[u] - x * mid : llOO));
+    ll ret = (cnt != 0 ? 0 : (x <= a[u] ? a[u] - x : llOO));
     neig(adj, u, e, v) {
         if (v == p) continue;
-        ret += dfs2(v, u, (u == 0 ? x : x / cnt), mid);
+        ret += dfs2(v, u, x / cnt);
         ret = min(ret, llOO);
     }
 
@@ -99,16 +97,16 @@ int main() {
         adj.addBiEdge(u, v);
     }
 
-    ll root = dfs1(0, -1, 1);
+    ll root = dfs1(0, -1);
 
     ll l = 0, r = (root == 0 ? 0 : LLONG_MAX / root);
     while(l <= r){
         ll mid = (l + r) >> 1;
-        if(dfs2(0, -1, root, mid) < llOO)
+        if(dfs2(0, -1, root * mid) < llOO)
             l = mid + 1;
         else
             r = mid - 1;
     }
 
-    cout << dfs2(0, -1, root, r);
+    cout << dfs2(0, -1, root * r);
 }
