@@ -64,17 +64,17 @@ ll dfs1(int u, int p) {
     return _lcm;
 }
 
-ll dfs2(int u, int p, ll x) {
+ll dfs2(int u, int p, ll x, ll mid) {
     int cnt = 0;
     neig(adj, u, e, v) {
         if (v == p) continue;
         cnt++;
     }
 
-    ll ret = (cnt != 0 ? 0 : (x <= a[u] ? a[u] - x : llOO));
+    ll ret = (cnt != 0 ? 0 : (x * mid <= a[u] ? a[u] - x * mid : llOO));
     neig(adj, u, e, v) {
         if (v == p) continue;
-        ret += dfs2(v, u, x / cnt);
+        ret += dfs2(v, u, x / cnt, mid);
         ret = min(ret, llOO);
     }
 
@@ -102,11 +102,11 @@ int main() {
     ll l = 0, r = (root == 0 ? 0 : LLONG_MAX / root);
     while(l <= r){
         ll mid = (l + r) >> 1;
-        if(dfs2(0, -1, root * mid) < llOO)
+        if(dfs2(0, -1, root, mid) < llOO)
             l = mid + 1;
         else
             r = mid - 1;
     }
 
-    cout << dfs2(0, -1, root * r);
+    cout << dfs2(0, -1, root, r);
 }
