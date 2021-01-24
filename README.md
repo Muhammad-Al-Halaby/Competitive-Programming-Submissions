@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1082 | [C - Prime Permutation](https://codeforces.com/contest/124/problem/C) | [GNU C++17](./codeforces/124/C.cpp) | `constructive algorithms` `dfs and similar` `dsu` `greedy` `number theory` `sortings` `strings` `*1300` | Jan/25/2021 01:20 | 
 1081 | [C - Multiplicity](https://codeforces.com/contest/1061/problem/C) | [GNU C++17](./codeforces/1061/C.cpp) | `data structures` `dp` `implementation` `math` `number theory` `*1700` | Jan/23/2021 22:06 | 
 1080 | [B - Apple Tree](https://codeforces.com/contest/348/problem/B) | [GNU C++17](./codeforces/348/B.cpp) | `dfs and similar` `number theory` `trees` `*2100` | Jan/23/2021 21:54 | 
 1079 | [D - Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | [GNU C++17](./codeforces/546/D.cpp) | `constructive algorithms` `dp` `math` `number theory` `*1700` | Jan/23/2021 19:23 | 
