@@ -2463,6 +2463,22 @@
     ],
     "timestamp": "Jan/11/2021 00:03"
   },
+  "AC19728111": {
+    "contest_id": "abc020",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc020\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "LCM Rush",
+    "problem_url": "https://atcoder.jp/contests/abc020/tasks/abc020_d",
+    "submission_id": "AC19728111",
+    "submission_url": "https://atcoder.jp/contests/abc020/submissions/19728111",
+    "tags": [
+      "AtCoder",
+      "*101"
+    ],
+    "timestamp": "Jan/27/2021 18:56"
+  },
   "AC3789200": {
     "contest_id": "abc115",
     "language": "C++14 (GCC 5.4.1)",
