@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1084 | [A - Very Very Primitive Game](https://atcoder.jp/contests/abc190/tasks/abc190_a) | [C++ (GCC 9.2.1)](./atcoder/abc190/A.cpp) | `AtCoder` `*100` | Jan/30/2021 17:22 | 
 1083 | [D - LCM Rush](https://atcoder.jp/contests/abc020/tasks/abc020_d) | [C++ (GCC 9.2.1)](./atcoder/abc020/D.cpp) | `AtCoder` `*101` | Jan/29/2021 09:07 | 
 1082 | [A - Taymyr is calling you](https://codeforces.com/contest/764/problem/A) | [GNU C++17](./codeforces/764/A.cpp) | `brute force` `implementation` `math` `*800` | Jan/25/2021 05:16 | 
 1081 | [C - Prime Permutation](https://codeforces.com/contest/124/problem/C) | [GNU C++17](./codeforces/124/C.cpp) | `constructive algorithms` `dfs and similar` `dsu` `greedy` `number theory` `sortings` `strings` `*1300` | Jan/25/2021 01:20 | 
