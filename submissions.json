@@ -4226,6 +4226,24 @@
     ],
     "timestamp": "Jan/25/2021 05:16"
   },
+  "CF108486112": {
+    "contest_id": 850,
+    "language": "GNU C++17",
+    "path": "codeforces\\850\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Arpa and a game with Mojtaba",
+    "problem_url": "https://codeforces.com/contest/850/problem/C",
+    "submission_id": "CF108486112",
+    "submission_url": "https://codeforces.com/contest/850/submission/108486112",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "games",
+      "*2200"
+    ],
+    "timestamp": "Feb/25/2021 17:37"
+  },
   "CF11129045": {
     "contest_id": 4,
     "language": "GNU C++",
