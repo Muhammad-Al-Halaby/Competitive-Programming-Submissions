@@ -15,7 +15,7 @@ int n;
 vector<vector<double>> matrix; // [n * (n + 1)] matrix, has n equations (rows), each equation has n coefficients (LHS) and the constant (RHS) (columns)
 vector<double> solution;
 
-void gaussian_elimination() {    // returns the number of solutions
+int gaussian_elimination() {    // returns the number of solutions
     // convert the linear system of equations into row echelon form
     for (int i = 0; i < n; i++) {
         int mx = i; // mx = index of a row that has the largest value at index i (looking for a non-zero)
