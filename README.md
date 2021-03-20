@@ -13,10 +13,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1096 | [A - Perfectly Imperfect Array](https://codeforces.com/contest/1514/problem/A) | [GNU C++17](./codeforces/1514/A.cpp) | `math` `number theory` `*800` | Apr/19/2021 16:45 | 
-1095 | [B - AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | [GNU C++17](./codeforces/1514/B.cpp) | `bitmasks` `combinatorics` `math` `*1200` | Apr/19/2021 16:31 | 
-1094 | [C - Product 1 Modulo N](https://codeforces.com/contest/1514/problem/C) | [GNU C++17](./codeforces/1514/C.cpp) | `greedy` `number theory` `*1600` | Apr/19/2021 16:08 | 
-1093 | [C - Doubled](https://atcoder.jp/contests/abc196/tasks/abc196_c) | [C++ (GCC 9.2.1)](./atcoder/abc196/C.cpp) | `AtCoder` `*300` | Mar/20/2021 14:19 | 
+1097 | [A - Perfectly Imperfect Array](https://codeforces.com/contest/1514/problem/A) | [GNU C++17](./codeforces/1514/A.cpp) | `math` `number theory` `*800` | Apr/19/2021 16:45 | 
+1096 | [B - AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | [GNU C++17](./codeforces/1514/B.cpp) | `bitmasks` `combinatorics` `math` `*1200` | Apr/19/2021 16:31 | 
+1095 | [C - Product 1 Modulo N](https://codeforces.com/contest/1514/problem/C) | [GNU C++17](./codeforces/1514/C.cpp) | `greedy` `number theory` `*1600` | Apr/19/2021 16:08 | 
+1094 | [C - Doubled](https://atcoder.jp/contests/abc196/tasks/abc196_c) | [C++ (GCC 9.2.1)](./atcoder/abc196/C.cpp) | `AtCoder` `*300` | Mar/20/2021 14:19 | 
+1093 | [B - Round Down](https://atcoder.jp/contests/abc196/tasks/abc196_b) | [C++ (GCC 9.2.1)](./atcoder/abc196/B.cpp) | `AtCoder` `*200` | Mar/20/2021 14:05 | 
 1092 | [C - Hamming Distance](https://codeforces.com/contest/193/problem/C) | [GNU C++17](./codeforces/193/C.cpp) | `constructive algorithms` `greedy` `math` `matrices` `*2400` | Mar/01/2021 09:45 | 
 1091 | [D - Poker](https://atcoder.jp/contests/abc193/tasks/abc193_d) | [C++ (GCC 9.2.1)](./atcoder/abc193/D.cpp) | `AtCoder` `*400` | Feb/27/2021 15:03 | 
 1090 | [C - Unexpressed](https://atcoder.jp/contests/abc193/tasks/abc193_c) | [C++ (GCC 9.2.1)](./atcoder/abc193/C.cpp) | `AtCoder` `*300` | Feb/27/2021 14:12 | 
