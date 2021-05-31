@@ -2,47 +2,71 @@
 
 using namespace std;
 
-#define F first
-#define S second
 #define modulo ll (1e9 + 7)
+#define neig(a, u, e, v) for(int v, e = (a).head[u] ; ~e and (v = (a).to[e], 1) ; e = (a).nxt[e])
 
 typedef long long ll;
-typedef pair<int,int> pii;
 
-void init(){
-    cin.tie(0);
-    cin.sync_with_stdio(0);
-}
-
-const int N = 10, M = 2e3 + 9, OO = 0x3f3f3f3f;
+const int N = 2e5 + 9, M = 1e6 + 9, OO = 0x3f3f3f3f;
 const ll llOO = 0x3f3f3f3f3f3f3f3f;
 
-int adjMat[N][N];
+int n, ne, head[N], nxt[M], to[M], cost[M];
 
-int main(){
-    init();
+void initGraph(int n) {
+    memset(head, -1, (n + 1) * sizeof head[0]);
+    ne = 0;
+    ::n = n;
+}
 
-    int n, m;   cin >> n >> m;
-    for(int i = 0;i < m;i++){
-        int u, v;   cin >> u >> v;  --u, --v;
-        adjMat[u][v] = adjMat[v][u] = 1;
+void addEdge(int f, int t, int c = 0) {
+    to[ne] = t;
+    cost[ne] = c;
+    nxt[ne] = head[f];
+    head[f] = ne++;
+}
+
+void addBiEdge(int u, int v, int c = 0) {
+    addEdge(u, v, c);
+    addEdge(v, u, c);
+}
+
+
+int vis[N], cnt;
+
+int dfs(int u){
+    if(vis[u])  return 0;
+
+
+    vis[u] = 1;
+    cnt++;
+
+    int ret = cnt == n;
+
+    for(int k = head[u];~k;k = nxt[k]){
+        int v = to[k];
+        ret += dfs(v);
     }
 
+    vis[u] = 0;
+    cnt--;
 
-    int path[n - 1];
-    for(int i = 0;i < n - 1;i++)    path[i] = i + 1;
+    return ret;
+}
 
-    int ans = 0;
-    do{
-        int ok = 1;
-        if(!adjMat[0][path[0]])  continue;
-        for(int i = 0;i < n - 2;i++){
-            int u = path[i];
-            int v = path[i + 1];
-            if(!adjMat[u][v])   ok = 0;
-        }
-        ans += ok;
-    }while(next_permutation(path, path + n - 1));
 
-    cout << ans;
+int main() {
+    cin.tie(0);
+    cin.sync_with_stdio(0);
+
+    int n, m;   cin >> n >> m;
+
+    initGraph(n);
+
+    for(int i = 0;i < m;i++){
+        int u, v;   cin >> u >> v;
+        u--, v--;
+        addBiEdge(u, v);
+    }
+
+    cout << dfs(0);
 }
