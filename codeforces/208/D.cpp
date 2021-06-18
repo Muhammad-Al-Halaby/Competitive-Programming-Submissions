@@ -20,21 +20,23 @@ int main() {
     int a[n];
     for(int i = 0;i < n;i++)    cin >> a[i];
 
-    int b[5];
-    for(int i = 0;i < 5;i++)    cin >> b[i];
+    pair<int, int> b[5];
+    for(int i = 0;i < 5;i++)    cin >> b[i].first, b[i].second = i;
+
+    sort(b, b + 5);
+    reverse(b, b + 5);
 
     ll points = 0, freq[5] = {0};
     for(int i = 0;i < n;i++){
         points += a[i];
-        for(int j = 4;j >= 0;j--) {
-            ll cnt = points / b[j];
-            points -= cnt * b[j];
-            freq[j] += cnt;
+        for(int j = 0;j < 5;j++) {
+            ll cnt = points / b[j].first;
+            points -= cnt * b[j].first;
+            freq[b[j].second] += cnt;
         }
     }
 
     for(int i = 0;i < 5;i++)
         cout << freq[i] << "\n "[i + 1 < 5];
-    
     cout << points;
 }
