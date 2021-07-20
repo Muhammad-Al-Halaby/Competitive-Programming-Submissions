@@ -13,15 +13,19 @@ const ll llOO = 0x3f3f3f3f3f3f3f3f;
 int n;
 double p[N], dp[N][N];
 
-double solve(int i, int cnt){
-    if(i == n)  return (cnt > n / 2);
+double solve(int i, int rem){
+    if(i == n)  return rem == 0;
 
-    double &ret = dp[i][cnt];
+
+    double &ret = dp[i][rem];
     if(!isnan(ret))  return ret;
 
-    ret = p[i] * solve(i + 1, cnt + 1);
+    ret = 0;
+    if(rem){
+        ret = p[i] * solve(i + 1, rem - 1);
+    }
 
-    ret += (1 - p[i]) * solve(i + 1, cnt);
+    ret += (1 - p[i]) * solve(i + 1, rem);
 
     return ret;
 }
@@ -37,7 +41,10 @@ int main() {
 
     memset(dp, -1, sizeof dp);
 
-    double ans = solve(0, 0);
+    double ans = 0;
+    for(int i = n / 2 + 1;i <= n;i++){
+        ans += solve(0, i);
+    }
 
     cout << fixed << setprecision(10) << ans;
 }
