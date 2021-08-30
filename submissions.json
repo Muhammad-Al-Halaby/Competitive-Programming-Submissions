@@ -6319,6 +6319,22 @@
     ],
     "timestamp": "Aug/27/2015 22:55"
   },
+  "CF127482202": {
+    "contest_id": 1006,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1006\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Two Strings Swaps",
+    "problem_url": "https://codeforces.com/contest/1006/problem/D",
+    "submission_id": "CF127482202",
+    "submission_url": "https://codeforces.com/contest/1006/submission/127482202",
+    "tags": [
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Aug/31/2021 01:13"
+  },
   "CF127482903": {
     "contest_id": 899,
     "language": "GNU C++17 (64)",
