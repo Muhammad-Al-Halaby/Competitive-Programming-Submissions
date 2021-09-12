@@ -7,7 +7,7 @@ using namespace std;
 
 typedef long long ll;
 
-const int N = 2e5 + 9, M = 1e6 + 9, OO = 0x3f3f3f3f;
+const int N = 1e6 + 9, M = 1e6 + 9, OO = 0x3f3f3f3f;
 const ll llOO = 0x3f3f3f3f3f3f3f3f;
 
 int n, k, a[N], freq[N];
