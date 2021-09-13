@@ -12,50 +12,65 @@ const ll llOO = 0x3f3f3f3f3f3f3f3f;
 
 int n, k, a[N], freq[N];
 
-deque<int> indices[N];
+vector<int> indices[N];
+
+int leftmostIdx[N], rightmostIdx[N];
 
 int curL = 0, curR = -1;
 
 ll totalCost;
 
 void update(int type, int x){
-    if(indices[x].empty())  return;
-    totalCost +=  type * ((indices[x].back() + 1) - (indices[x].front() + 1));
+    int left = (leftmostIdx[x] == -1 || leftmostIdx[x] == (int) indices[x].size() ? -1 : indices[x][leftmostIdx[x]]);
+    int right = (rightmostIdx[x] == -1 || rightmostIdx[x] == (int) indices[x].size() ? -1 : indices[x][rightmostIdx[x]]);
+
+    if(left == -1 && right == -1)   return;
+    else if(left == -1)  left = right;
+    else if(right == -1) right = left;
+    if(left > right)    return;
+
+    totalCost += type * (right - left);
 }
 
-void add(int idx) {
+void add(int idx, int dir) {
     int x = a[idx];
 
     update(-1, x);
 
-    if(indices[x].empty() || idx > indices[x].back())
-        indices[x].push_back(idx);
-    else
-        indices[x].push_front(idx);
+    if(dir == 0) {
+        if(rightmostIdx[x] == -1 && leftmostIdx[x] != -1)
+            rightmostIdx[x] = leftmostIdx[x];
+        leftmostIdx[x]--;
+    }
+    else{
+        if(leftmostIdx[x] == -1 && rightmostIdx[x] != -1)
+            leftmostIdx[x] = rightmostIdx[x];
+        rightmostIdx[x]++;
+    }
 
     update(1, x);
 }
 
-void remove(int idx) {
+void remove(int idx, int dir) {
     int x = a[idx];
 
     update(-1, x);
 
-    if(indices[x].size()) {
-        if (idx == indices[x].back())
-            indices[x].pop_back();
-        else
-            indices[x].pop_front();
+    if(dir == 0) {
+        leftmostIdx[x]++;
+    }
+    else{
+        rightmostIdx[x]--;
     }
 
     update(1, x);
 }
 
 ll calcCost(int i, int j){
-    while (curL > i) add(--curL);
-    while (curR < j) add(++curR);
-    while (curL < i) remove(curL++);
-    while (curR > j) remove(curR--);
+    while (curL < i) remove(curL++, 0);
+    while (curL > i) add(--curL, 0);
+    while (curR < j) add(++curR, 1);
+    while (curR > j) remove(curR--, 1);
     return totalCost;
 }
 
@@ -93,8 +108,12 @@ int main() {
 
     for(int i = 0;i < n;i++) {
         cin >> a[i];
+        indices[a[i]].push_back(i);
     }
 
+    memset(leftmostIdx, -1, sizeof leftmostIdx);
+    memset(rightmostIdx, -1, sizeof rightmostIdx);
+    
     for(int i = 0;i < n;i++){
         dp[i][1] = calcCost(i, n - 1);
     }
