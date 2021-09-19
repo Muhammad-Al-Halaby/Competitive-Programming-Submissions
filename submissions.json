@@ -2671,6 +2671,22 @@
     ],
     "timestamp": "Mar/20/2021 14:19"
   },
+  "AC26002090": {
+    "contest_id": "dp",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\dp\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Knapsack 2",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_e",
+    "submission_id": "AC26002090",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/26002090",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/20/2021 01:57"
+  },
   "AC27744018": {
     "contest_id": "arc131",
     "language": "C++ (GCC 9.2.1)",
