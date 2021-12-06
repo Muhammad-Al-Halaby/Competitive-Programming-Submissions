@@ -2671,6 +2671,22 @@
     ],
     "timestamp": "Mar/20/2021 14:19"
   },
+  "AC27744093": {
+    "contest_id": "arc131",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\arc131\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Grid Repainting 4",
+    "problem_url": "https://atcoder.jp/contests/arc131/tasks/arc131_b",
+    "submission_id": "AC27744093",
+    "submission_url": "https://atcoder.jp/contests/arc131/submissions/27744093",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/06/2021 21:38"
+  },
   "AC28327714": {
     "contest_id": "abc233",
     "language": "PyPy3 (7.3.0)",
