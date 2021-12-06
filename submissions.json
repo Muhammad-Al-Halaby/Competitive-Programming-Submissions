@@ -2671,6 +2671,22 @@
     ],
     "timestamp": "Mar/20/2021 14:19"
   },
+  "AC27744018": {
+    "contest_id": "arc131",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\arc131\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Two Lucky Numbers",
+    "problem_url": "https://atcoder.jp/contests/arc131/tasks/arc131_a",
+    "submission_id": "AC27744018",
+    "submission_url": "https://atcoder.jp/contests/arc131/submissions/27744018",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/06/2021 21:16"
+  },
   "AC27744066": {
     "contest_id": "arc131",
     "language": "C++ (GCC 9.2.1)",
