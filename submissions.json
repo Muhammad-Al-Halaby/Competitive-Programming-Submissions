@@ -6620,6 +6620,29 @@
     ],
     "timestamp": "Feb/04/2016 00:30"
   },
+  "CF164829975": {
+    "contest_id": 1401,
+    "language": "GNU C++17",
+    "path": "codeforces\\1401\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Maximum Distributed Tree",
+    "problem_url": "https://codeforces.com/contest/1401/problem/D",
+    "submission_id": "CF164829975",
+    "submission_url": "https://codeforces.com/contest/1401/submission/164829975",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "implementation",
+      "math",
+      "number theory",
+      "sortings",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "Jul/19/2022 03:04"
+  },
   "CF164830027": {
     "contest_id": 677,
     "language": "GNU C++17",
