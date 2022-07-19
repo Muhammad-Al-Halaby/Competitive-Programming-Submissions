@@ -6620,6 +6620,25 @@
     ],
     "timestamp": "Feb/04/2016 00:30"
   },
+  "CF164830027": {
+    "contest_id": 677,
+    "language": "GNU C++17",
+    "path": "codeforces\\677\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Vanya and Treasure",
+    "problem_url": "https://codeforces.com/contest/677/problem/D",
+    "submission_id": "CF164830027",
+    "submission_url": "https://codeforces.com/contest/677/submission/164830027",
+    "tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "shortest paths",
+      "*2300"
+    ],
+    "timestamp": "Jul/19/2022 03:04"
+  },
   "CF16906642": {
     "contest_id": 158,
     "language": "GNU C++",
