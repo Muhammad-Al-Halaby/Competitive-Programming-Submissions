@@ -2671,6 +2671,22 @@
     ],
     "timestamp": "Mar/20/2021 14:19"
   },
+  "AC33737585": {
+    "contest_id": "abc262",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc262\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Min Max Pair",
+    "problem_url": "https://atcoder.jp/contests/abc262/tasks/abc262_c",
+    "submission_id": "AC33737585",
+    "submission_url": "https://atcoder.jp/contests/abc262/submissions/33737585",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/03/2022 00:03"
+  },
   "AC33737706": {
     "contest_id": "abc262",
     "language": "C++ (GCC 9.2.1)",
