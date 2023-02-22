@@ -6739,6 +6739,23 @@
     ],
     "timestamp": "Mar/25/2016 00:37"
   },
+  "CF194596773": {
+    "contest_id": 1772,
+    "language": "GNU C++17",
+    "path": "codeforces\\1772\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Absolute Sorting",
+    "problem_url": "https://codeforces.com/contest/1772/problem/D",
+    "submission_id": "CF194596773",
+    "submission_url": "https://codeforces.com/contest/1772/submission/194596773",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Feb/22/2023 19:29"
+  },
   "CF194602276": {
     "contest_id": 1772,
     "language": "GNU C++17",
