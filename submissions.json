@@ -6739,6 +6739,24 @@
     ],
     "timestamp": "Mar/25/2016 00:37"
   },
+  "CF194863167": {
+    "contest_id": 1791,
+    "language": "GNU C++17",
+    "path": "codeforces\\1791\\G2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G2",
+    "problem_name": "Teleporters (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1791/problem/G2",
+    "submission_id": "CF194863167",
+    "submission_url": "https://codeforces.com/contest/1791/submission/194863167",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Feb/25/2023 05:41"
+  },
   "CF195078549": {
     "contest_id": 1760,
     "language": "GNU C++17",
