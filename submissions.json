@@ -6739,6 +6739,23 @@
     ],
     "timestamp": "Mar/25/2016 00:37"
   },
+  "CF195078549": {
+    "contest_id": 1760,
+    "language": "GNU C++17",
+    "path": "codeforces\\1760\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Medium Number",
+    "problem_url": "https://codeforces.com/contest/1760/problem/A",
+    "submission_id": "CF195078549",
+    "submission_url": "https://codeforces.com/contest/1760/submission/195078549",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Feb/27/2023 01:02"
+  },
   "CF195078631": {
     "contest_id": 1760,
     "language": "GNU C++17",
