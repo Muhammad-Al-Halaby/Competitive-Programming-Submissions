@@ -6739,6 +6739,25 @@
     ],
     "timestamp": "Mar/25/2016 00:37"
   },
+  "CF195696107": {
+    "contest_id": 1800,
+    "language": "GNU C++17",
+    "path": "codeforces\\1800\\E2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E2",
+    "problem_name": "Unforgivable Curse (hard version)",
+    "problem_url": "https://codeforces.com/contest/1800/problem/E2",
+    "submission_id": "CF195696107",
+    "submission_url": "https://codeforces.com/contest/1800/submission/195696107",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "dsu",
+      "graphs",
+      "greedy"
+    ],
+    "timestamp": "Mar/02/2023 18:41"
+  },
   "CF24509061": {
     "contest_id": 766,
     "language": "GNU C++",
