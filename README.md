@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1128 | [E2 - Unforgivable Curse (hard version)](https://codeforces.com/contest/1800/problem/E2) | [GNU C++17](./codeforces/1800/E2.cpp) | `brute force` `constructive algorithms` `dsu` `graphs` `greedy` | Mar/02/2023 18:41 | 
-1127 | [E1 - Unforgivable Curse (easy version)](https://codeforces.com/contest/1800/problem/E1) | [GNU C++17](./codeforces/1800/E1.cpp) | `brute force` `constructive algorithms` `dsu` `graphs` `greedy` | Mar/02/2023 18:40 | 
+1129 | [E2 - Unforgivable Curse (hard version)](https://codeforces.com/contest/1800/problem/E2) | [GNU C++17](./codeforces/1800/E2.cpp) | `brute force` `constructive algorithms` `dsu` `graphs` `greedy` | Mar/02/2023 18:41 | 
+1128 | [E1 - Unforgivable Curse (easy version)](https://codeforces.com/contest/1800/problem/E1) | [GNU C++17](./codeforces/1800/E1.cpp) | `brute force` `constructive algorithms` `dsu` `graphs` `greedy` | Mar/02/2023 18:40 | 
+1127 | [D - Remove Two Letters](https://codeforces.com/contest/1800/problem/D) | [GNU C++17](./codeforces/1800/D.cpp) | `constructive algorithms` `data structures` `greedy` `hashing` `strings` | Mar/02/2023 18:04 | 
 1126 | [D - Snuke Prime](https://atcoder.jp/contests/abc188/tasks/abc188_d) | [C++ (GCC 9.2.1)](./atcoder/abc188/D.cpp) | `AtCoder` `*400` | Feb/28/2023 20:21 | 
 1125 | [C - ABC Tournament](https://atcoder.jp/contests/abc188/tasks/abc188_c) | [C++ (GCC 9.2.1)](./atcoder/abc188/C.cpp) | `AtCoder` `*300` | Feb/28/2023 18:07 | 
 1124 | [B - Orthogonality](https://atcoder.jp/contests/abc188/tasks/abc188_b) | [C++ (GCC 9.2.1)](./atcoder/abc188/B.cpp) | `AtCoder` `*200` | Feb/28/2023 18:01 | 
