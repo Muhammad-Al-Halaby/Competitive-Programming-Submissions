@@ -13,11 +13,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1174 | [C - Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | [GNU C++17](./codeforces/1794/C.cpp) | `binary search` `greedy` `two pointers` | Mar/04/2023 22:54 | 
 1173 | [E2 - Unforgivable Curse (hard version)](https://codeforces.com/contest/1800/problem/E2) | [GNU C++17](./codeforces/1800/E2.cpp) | `brute force` `constructive algorithms` `dsu` `graphs` `greedy` | Mar/02/2023 18:41 | 
 1172 | [E1 - Unforgivable Curse (easy version)](https://codeforces.com/contest/1800/problem/E1) | [GNU C++17](./codeforces/1800/E1.cpp) | `brute force` `constructive algorithms` `dsu` `graphs` `greedy` | Mar/02/2023 18:40 | 
 1171 | [D - Remove Two Letters](https://codeforces.com/contest/1800/problem/D) | [GNU C++17](./codeforces/1800/D.cpp) | `constructive algorithms` `data structures` `greedy` `hashing` `strings` | Mar/02/2023 18:04 | 
-1170 | [C2 - Powering the Hero (hard version)](https://codeforces.com/contest/1800/problem/C2) | [GNU C++17](./codeforces/1800/C2.cpp) | `data structures` `greedy` | Mar/02/2023 17:17 | 
-1169 | [C1 - Powering the Hero (easy version)](https://codeforces.com/contest/1800/problem/C1) | [GNU C++17](./codeforces/1800/C1.cpp) | `data structures` `greedy` | Mar/02/2023 17:17 | 
+1170 | [C1 - Powering the Hero (easy version)](https://codeforces.com/contest/1800/problem/C1) | [GNU C++17](./codeforces/1800/C1.cpp) | `data structures` `greedy` | Mar/02/2023 17:17 | 
+1169 | [C2 - Powering the Hero (hard version)](https://codeforces.com/contest/1800/problem/C2) | [GNU C++17](./codeforces/1800/C2.cpp) | `data structures` `greedy` | Mar/02/2023 17:17 | 
 1168 | [B - Count the Number of Pairs](https://codeforces.com/contest/1800/problem/B) | [GNU C++17](./codeforces/1800/B.cpp) | `greedy` `strings` | Mar/02/2023 16:48 | 
 1167 | [A - Is It a Cat?](https://codeforces.com/contest/1800/problem/A) | [GNU C++17](./codeforces/1800/A.cpp) | `implementation` `strings` | Mar/02/2023 16:41 | 
 1166 | [D - Snuke Prime](https://atcoder.jp/contests/abc188/tasks/abc188_d) | [C++ (GCC 9.2.1)](./atcoder/abc188/D.cpp) | `AtCoder` `*400` | Feb/28/2023 20:21 | 
@@ -58,8 +59,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 1131 | [C - Min Max Pair](https://atcoder.jp/contests/abc262/tasks/abc262_c) | [C++ (GCC 9.2.1)](./atcoder/abc262/C.cpp) | `AtCoder` `*300` | Aug/03/2022 00:03 | 
 1130 | [B - Triangle (Easier)](https://atcoder.jp/contests/abc262/tasks/abc262_b) | [C++ (GCC 9.2.1)](./atcoder/abc262/B.cpp) | `AtCoder` `*200` | Aug/02/2022 23:51 | 
 1129 | [A - World Cup](https://atcoder.jp/contests/abc262/tasks/abc262_a) | [C++ (GCC 9.2.1)](./atcoder/abc262/A.cpp) | `AtCoder` `*100` | Aug/02/2022 23:47 | 
-1128 | [D - Vanya and Treasure](https://codeforces.com/contest/677/problem/D) | [GNU C++17](./codeforces/677/D.cpp) | `data structures` `dp` `graphs` `shortest paths` `*2300` | Jul/19/2022 03:04 | 
-1127 | [D - Maximum Distributed Tree](https://codeforces.com/contest/1401/problem/D) | [GNU C++17](./codeforces/1401/D.cpp) | `dfs and similar` `dp` `greedy` `implementation` `math` `number theory` `sortings` `trees` `*1800` | Jul/19/2022 03:04 | 
+1128 | [D - Maximum Distributed Tree](https://codeforces.com/contest/1401/problem/D) | [GNU C++17](./codeforces/1401/D.cpp) | `dfs and similar` `dp` `greedy` `implementation` `math` `number theory` `sortings` `trees` `*1800` | Jul/19/2022 03:04 | 
+1127 | [D - Vanya and Treasure](https://codeforces.com/contest/677/problem/D) | [GNU C++17](./codeforces/677/D.cpp) | `data structures` `dp` `graphs` `shortest paths` `*2300` | Jul/19/2022 03:04 | 
 1126 | [E - Σ[k=0..10^100]floor(X／10^k)](https://atcoder.jp/contests/abc233/tasks/abc233_e) | [PyPy3 (7.3.0)](./atcoder/abc233/E.py) | `AtCoder` `*500` | Jan/04/2022 17:38 | 
 1125 | [B - Grid Repainting 4](https://atcoder.jp/contests/arc131/tasks/arc131_b) | [C++ (GCC 9.2.1)](./atcoder/arc131/B.cpp) | `AtCoder` `*300` | Dec/06/2021 21:38 | 
 1124 | [C - Zero XOR](https://atcoder.jp/contests/arc131/tasks/arc131_c) | [C++ (GCC 9.2.1)](./atcoder/arc131/C.cpp) | `AtCoder` `*600` | Dec/06/2021 21:29 | 
