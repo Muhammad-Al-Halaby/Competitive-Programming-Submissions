@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1176 | [C - Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | [GNU C++17](./codeforces/1794/C.cpp) | `binary search` `greedy` `two pointers` | Mar/04/2023 22:54 | 
-1175 | [B - Not Dividing](https://codeforces.com/contest/1794/problem/B) | [GNU C++17](./codeforces/1794/B.cpp) | `constructive algorithms` `greedy` `math` | Mar/04/2023 22:54 | 
+1177 | [C - Pull Your Luck](https://codeforces.com/contest/1804/problem/C) | [GNU C++17](./codeforces/1804/C.cpp) | `brute force` `greedy` `math` | Mar/12/2023 19:33 | 
+1176 | [B - Not Dividing](https://codeforces.com/contest/1794/problem/B) | [GNU C++17](./codeforces/1794/B.cpp) | `constructive algorithms` `greedy` `math` | Mar/04/2023 22:54 | 
+1175 | [C - Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | [GNU C++17](./codeforces/1794/C.cpp) | `binary search` `greedy` `two pointers` | Mar/04/2023 22:54 | 
 1174 | [A - Prefix and Suffix Array](https://codeforces.com/contest/1794/problem/A) | [GNU C++17](./codeforces/1794/A.cpp) | `strings` | Mar/04/2023 22:53 | 
 1173 | [E2 - Unforgivable Curse (hard version)](https://codeforces.com/contest/1800/problem/E2) | [GNU C++17](./codeforces/1800/E2.cpp) | `brute force` `constructive algorithms` `dsu` `graphs` `greedy` | Mar/02/2023 18:41 | 
 1172 | [E1 - Unforgivable Curse (easy version)](https://codeforces.com/contest/1800/problem/E1) | [GNU C++17](./codeforces/1800/E1.cpp) | `brute force` `constructive algorithms` `dsu` `graphs` `greedy` | Mar/02/2023 18:40 | 
