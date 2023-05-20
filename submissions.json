@@ -7744,6 +7744,24 @@
     ],
     "timestamp": "Mar/12/2023 19:33"
   },
+  "CF206576432": {
+    "contest_id": 1796,
+    "language": "GNU C++17",
+    "path": "codeforces\\1796\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Typical Interview Problem",
+    "problem_url": "https://codeforces.com/contest/1796/problem/A",
+    "submission_id": "CF206576432",
+    "submission_url": "https://codeforces.com/contest/1796/submission/206576432",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/20/2023 03:18"
+  },
   "CF206576904": {
     "contest_id": 1796,
     "language": "GNU C++17",
