@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1179 | [C - Pull Your Luck](https://codeforces.com/contest/1804/problem/C) | [GNU C++17](./codeforces/1804/C.cpp) | `brute force` `greedy` `math` | Mar/12/2023 19:33 | 
-1178 | [B - Vaccination](https://codeforces.com/contest/1804/problem/B) | [GNU C++17](./codeforces/1804/B.cpp) | `greedy` `implementation` | Mar/12/2023 19:33 | 
+1180 | [D - Maximum Subarray](https://codeforces.com/contest/1796/problem/D) | [GNU C++17](./codeforces/1796/D.cpp) | `data structures` `dp` `greedy` `two pointers` `*2000` | May/20/2023 22:32 | 
+1179 | [B - Vaccination](https://codeforces.com/contest/1804/problem/B) | [GNU C++17](./codeforces/1804/B.cpp) | `greedy` `implementation` | Mar/12/2023 19:33 | 
+1178 | [C - Pull Your Luck](https://codeforces.com/contest/1804/problem/C) | [GNU C++17](./codeforces/1804/C.cpp) | `brute force` `greedy` `math` | Mar/12/2023 19:33 | 
 1177 | [A - Lame King](https://codeforces.com/contest/1804/problem/A) | [GNU C++17](./codeforces/1804/A.cpp) | `greedy` `math` | Mar/12/2023 19:30 | 
 1176 | [B - Not Dividing](https://codeforces.com/contest/1794/problem/B) | [GNU C++17](./codeforces/1794/B.cpp) | `constructive algorithms` `greedy` `math` | Mar/04/2023 22:54 | 
 1175 | [C - Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | [GNU C++17](./codeforces/1794/C.cpp) | `binary search` `greedy` `two pointers` | Mar/04/2023 22:54 | 
