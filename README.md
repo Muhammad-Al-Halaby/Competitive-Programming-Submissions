@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1181 | [D - Maximum Subarray](https://codeforces.com/contest/1796/problem/D) | [GNU C++17](./codeforces/1796/D.cpp) | `data structures` `dp` `greedy` `two pointers` `*2000` | May/20/2023 22:32 | 
-1180 | [C - Maximum Set](https://codeforces.com/contest/1796/problem/C) | [GNU C++17](./codeforces/1796/C.cpp) | `binary search` `math` `*1600` | May/20/2023 05:04 | 
+1182 | [D - Maximum Subarray](https://codeforces.com/contest/1796/problem/D) | [GNU C++17](./codeforces/1796/D.cpp) | `data structures` `dp` `greedy` `two pointers` `*2000` | May/20/2023 22:32 | 
+1181 | [C - Maximum Set](https://codeforces.com/contest/1796/problem/C) | [GNU C++17](./codeforces/1796/C.cpp) | `binary search` `math` `*1600` | May/20/2023 05:04 | 
+1180 | [B - Asterisk-Minor Template](https://codeforces.com/contest/1796/problem/B) | [GNU C++17](./codeforces/1796/B.cpp) | `implementation` `strings` `*1000` | May/20/2023 03:36 | 
 1179 | [B - Vaccination](https://codeforces.com/contest/1804/problem/B) | [GNU C++17](./codeforces/1804/B.cpp) | `greedy` `implementation` | Mar/12/2023 19:33 | 
 1178 | [C - Pull Your Luck](https://codeforces.com/contest/1804/problem/C) | [GNU C++17](./codeforces/1804/C.cpp) | `brute force` `greedy` `math` | Mar/12/2023 19:33 | 
 1177 | [A - Lame King](https://codeforces.com/contest/1804/problem/A) | [GNU C++17](./codeforces/1804/A.cpp) | `greedy` `math` | Mar/12/2023 19:30 | 
