@@ -29,11 +29,14 @@ int main() {
             start[i] += (i + 1);
         }
 
-        int mx = end[n - 1], max_match[n];
+        set<int> s;
+        s.insert(end[n - 1]);
+
+        int max_match[n];
         max_match[n - 1] = -OO;
         for(int i = n - 2;i >= 1;i--){
-            max_match[i] = max(max_match[i + 1], middle[i] + mx);
-            mx = max(mx, end[i]);
+            max_match[i] = max(max_match[i + 1], middle[i] + *(s.rbegin()));
+            s.insert(end[i]);
         }
 
         int ans = -OO;
