@@ -7853,6 +7853,22 @@
     ],
     "timestamp": "May/20/2023 22:32"
   },
+  "CF207420508": {
+    "contest_id": 192,
+    "language": "GNU C++17",
+    "path": "codeforces\\192\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Dynasty Puzzles",
+    "problem_url": "https://codeforces.com/contest/192/problem/C",
+    "submission_id": "CF207420508",
+    "submission_url": "https://codeforces.com/contest/192/submission/207420508",
+    "tags": [
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "May/27/2023 07:09"
+  },
   "CF24509061": {
     "contest_id": 766,
     "language": "GNU C++",

@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1185 | [C - Dynasty Puzzles](https://codeforces.com/contest/192/problem/C) | [GNU C++17](./codeforces/192/C.cpp) | `dp` `*1500` | May/27/2023 07:09 | 
 1184 | [D - Maximum Subarray](https://codeforces.com/contest/1796/problem/D) | [GNU C++17](./codeforces/1796/D.cpp) | `data structures` `dp` `greedy` `two pointers` `*2000` | May/20/2023 22:32 | 
 1183 | [C - Maximum Set](https://codeforces.com/contest/1796/problem/C) | [GNU C++17](./codeforces/1796/C.cpp) | `binary search` `math` `*1600` | May/20/2023 05:04 | 
 1182 | [B - Asterisk-Minor Template](https://codeforces.com/contest/1796/problem/B) | [GNU C++17](./codeforces/1796/B.cpp) | `implementation` `strings` `*1000` | May/20/2023 03:36 | 
