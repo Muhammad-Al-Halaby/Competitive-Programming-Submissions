@@ -13,13 +13,14 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1193 | [B - Array merging](https://codeforces.com/contest/1831/problem/B) | [GNU C++17](./codeforces/1831/B.cpp) | `constructive algorithms` `greedy` | May/28/2023 20:57 | 
-1192 | [C - Copil Copac Draws Trees](https://codeforces.com/contest/1831/problem/C) | [GNU C++17](./codeforces/1831/C.cpp) | `dfs and similar` `dp` | May/28/2023 20:57 | 
-1191 | [A - Twin Permutations](https://codeforces.com/contest/1831/problem/A) | [GNU C++17](./codeforces/1831/A.cpp) | `constructive algorithms` | May/28/2023 20:56 | 
-1190 | [H - Don't Blame Me](https://codeforces.com/contest/1829/problem/H) | [GNU C++17](./codeforces/1829/H.cpp) | `bitmasks` `combinatorics` `dp` `math` `*1700` | May/28/2023 16:19 | 
-1189 | [E - A Gift From the Stars](https://atcoder.jp/contests/abc303/tasks/abc303_e) | [C++ (GCC 9.2.1)](./atcoder/abc303/E.cpp) | `AtCoder` `*475` | May/27/2023 17:07 | 
-1188 | [D - Shift vs. CapsLock](https://atcoder.jp/contests/abc303/tasks/abc303_d) | [C++ (GCC 9.2.1)](./atcoder/abc303/D.cpp) | `AtCoder` `*400` | May/27/2023 15:31 | 
-1187 | [C - Dash](https://atcoder.jp/contests/abc303/tasks/abc303_c) | [C++ (GCC 9.2.1)](./atcoder/abc303/C.cpp) | `AtCoder` `*300` | May/27/2023 15:21 | 
+1194 | [B - Array merging](https://codeforces.com/contest/1831/problem/B) | [GNU C++17](./codeforces/1831/B.cpp) | `constructive algorithms` `greedy` | May/28/2023 20:57 | 
+1193 | [C - Copil Copac Draws Trees](https://codeforces.com/contest/1831/problem/C) | [GNU C++17](./codeforces/1831/C.cpp) | `dfs and similar` `dp` | May/28/2023 20:57 | 
+1192 | [A - Twin Permutations](https://codeforces.com/contest/1831/problem/A) | [GNU C++17](./codeforces/1831/A.cpp) | `constructive algorithms` | May/28/2023 20:56 | 
+1191 | [H - Don't Blame Me](https://codeforces.com/contest/1829/problem/H) | [GNU C++17](./codeforces/1829/H.cpp) | `bitmasks` `combinatorics` `dp` `math` `*1700` | May/28/2023 16:19 | 
+1190 | [E - A Gift From the Stars](https://atcoder.jp/contests/abc303/tasks/abc303_e) | [C++ (GCC 9.2.1)](./atcoder/abc303/E.cpp) | `AtCoder` `*475` | May/27/2023 17:07 | 
+1189 | [D - Shift vs. CapsLock](https://atcoder.jp/contests/abc303/tasks/abc303_d) | [C++ (GCC 9.2.1)](./atcoder/abc303/D.cpp) | `AtCoder` `*400` | May/27/2023 15:31 | 
+1188 | [C - Dash](https://atcoder.jp/contests/abc303/tasks/abc303_c) | [C++ (GCC 9.2.1)](./atcoder/abc303/C.cpp) | `AtCoder` `*300` | May/27/2023 15:21 | 
+1187 | [B - Discord](https://atcoder.jp/contests/abc303/tasks/abc303_b) | [C++ (GCC 9.2.1)](./atcoder/abc303/B.cpp) | `AtCoder` `*200` | May/27/2023 15:10 | 
 1186 | [C - Dynasty Puzzles](https://codeforces.com/contest/192/problem/C) | [GNU C++17](./codeforces/192/C.cpp) | `dp` `*1500` | May/27/2023 07:09 | 
 1185 | [D - Running Miles](https://codeforces.com/contest/1826/problem/D) | [GNU C++17](./codeforces/1826/D.cpp) | `brute force` `dp` `greedy` `*1700` | May/22/2023 06:50 | 
 1184 | [D - Maximum Subarray](https://codeforces.com/contest/1796/problem/D) | [GNU C++17](./codeforces/1796/D.cpp) | `data structures` `dp` `greedy` `two pointers` `*2000` | May/20/2023 22:32 | 
