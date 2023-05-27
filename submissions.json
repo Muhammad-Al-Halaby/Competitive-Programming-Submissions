@@ -3247,6 +3247,22 @@
     ],
     "timestamp": "Jan/06/2019 16:22"
   },
+  "AC41777504": {
+    "contest_id": "abc303",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc303\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "A Gift From the Stars",
+    "problem_url": "https://atcoder.jp/contests/abc303/tasks/abc303_e",
+    "submission_id": "AC41777504",
+    "submission_url": "https://atcoder.jp/contests/abc303/submissions/41777504",
+    "tags": [
+      "AtCoder",
+      "*475"
+    ],
+    "timestamp": "May/27/2023 17:07"
+  },
   "AC4924890": {
     "contest_id": "abc102",
     "language": "C++14 (GCC 5.4.1)",
