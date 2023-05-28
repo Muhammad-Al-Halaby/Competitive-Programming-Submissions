@@ -7923,6 +7923,21 @@
     ],
     "timestamp": "May/27/2023 07:09"
   },
+  "CF207672332": {
+    "contest_id": 1831,
+    "language": "GNU C++17",
+    "path": "codeforces\\1831\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Twin Permutations",
+    "problem_url": "https://codeforces.com/contest/1831/problem/A",
+    "submission_id": "CF207672332",
+    "submission_url": "https://codeforces.com/contest/1831/submission/207672332",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "timestamp": "May/28/2023 20:56"
+  },
   "CF207672378": {
     "contest_id": 1831,
     "language": "GNU C++17",
