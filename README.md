@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1187 | [C - Copil Copac Draws Trees](https://codeforces.com/contest/1831/problem/C) | [GNU C++17](./codeforces/1831/C.cpp) | `dfs and similar` `dp` | May/28/2023 20:57 | 
 1186 | [C - Dynasty Puzzles](https://codeforces.com/contest/192/problem/C) | [GNU C++17](./codeforces/192/C.cpp) | `dp` `*1500` | May/27/2023 07:09 | 
 1185 | [D - Running Miles](https://codeforces.com/contest/1826/problem/D) | [GNU C++17](./codeforces/1826/D.cpp) | `brute force` `dp` `greedy` `*1700` | May/22/2023 06:50 | 
 1184 | [D - Maximum Subarray](https://codeforces.com/contest/1796/problem/D) | [GNU C++17](./codeforces/1796/D.cpp) | `data structures` `dp` `greedy` `two pointers` `*2000` | May/20/2023 22:32 | 
