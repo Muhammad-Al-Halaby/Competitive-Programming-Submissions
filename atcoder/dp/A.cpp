@@ -32,19 +32,6 @@ int solve(int i){
     return ret;
 }
 
-int solve(){
-    dp[n - 1] = 0;
-    for(int i = n - 1;i >= 0;i--){
-        int &ret = dp[i];
-        if(i + 1 < n) {
-            ret = abs(h[i] - h[i + 1]) + dp[i + 1];
-        }
-        if(i + 2 < n)
-            ret = min(ret, abs(h[i] - h[i + 2]) + dp[i + 2]);
-    }
-    return dp[0];
-}
-
 int main() {
     cin.tie(0);
     cin.sync_with_stdio(0);
@@ -53,7 +40,7 @@ int main() {
     for(int i = 0;i < n;i++)
         cin >> h[i];
 
-//    memset(dp, -1, sizeof dp);
+    memset(dp, -1, sizeof dp);
 
-    cout << solve();
+    cout << solve(0);
 }
