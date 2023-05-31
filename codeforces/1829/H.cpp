@@ -10,40 +10,60 @@ typedef long long ll;
 const int N = 2e5 + 9, M = 1e6 + 9, OO = 0x3f3f3f3f;
 const ll llOO = 0x3f3f3f3f3f3f3f3f;
 
+// dp[i][and_sofar] = number of subsequences from i to n - 1 starting with bitwise_and = and_sofar
+
 int n, k, a[N];
 
-int dp[N][64][2];
+int dp[N][64];
 
-int solve(int i, int bitwise_and, int pick){
-    if(i == n)
-        return (pick && __builtin_popcount(bitwise_and) == k);
+int solve(int i, int and_sofar) {
+    if (i == n)
+        return __builtin_popcount(and_sofar) == k;
 
-    int &ret = dp[i][bitwise_and][pick];
-    if(~ret)    return ret;
+    int &ret = dp[i][and_sofar];
+    if (~ret) return ret;
 
-    ret = (0ll + solve(i + 1, bitwise_and & a[i], 1) + solve(i + 1, bitwise_and, pick)) % modulo;
+    ret = solve(i + 1, and_sofar) + solve(i + 1, and_sofar & a[i]);
+
+    ret %= modulo;
 
     return ret;
 }
 
+int solve(){
+    for(int i = n;i >= 0;i--){
+        for(int and_sofar = 0;and_sofar < 64;and_sofar++){
+            int &ret = dp[i][and_sofar];
+
+            if(i == n){
+                ret = __builtin_popcount(and_sofar) == k;
+                continue;
+            }
+
+            ret = dp[i + 1][and_sofar] + dp[i + 1][and_sofar & a[i]];
+
+            ret %= modulo;
+        }
+    }
+    return dp[0][63];
+}
 int main() {
     cin.tie(0);
     cin.sync_with_stdio(0);
 
     int t;
     cin >> t;
-
-    while(t--){
+    while (t--) {
         cin >> n >> k;
 
         for(int i = 0;i < n;i++)
             for(int j = 0;j < 64;j++)
-                dp[i][j][0] = dp[i][j][1] = -1;
+                dp[i][j] = -1;
 
-        for(int i = 0;i < n;i++) {
+        for (int i = 0; i < n; i++)
             cin >> a[i];
-        }
 
-        cout << solve(0, 63, 0) << '\n';
+//        cout << solve(0, 63) - (k == 6) << '\n';
+        cout << solve() - (k == 6) << '\n';
     }
 }
