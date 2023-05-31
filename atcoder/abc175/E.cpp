@@ -1,68 +1,66 @@
-#include "bits/stdc++.h"
+#include <bits/stdc++.h>
 
 using namespace std;
 
-#define F first
-#define S second
 #define modulo ll (1e9 + 7)
-#define EPS 1e-9
+#define neig(a, u, e, v) for(int v, e = (a).head[u] ; ~e and (v = (a).to[e], 1) ; e = (a).nxt[e])
 
 typedef long long ll;
-typedef pair<int,int> pii;
 
-void init(){
-    cin.tie(0);
-    cin.sync_with_stdio(0);
-}
-
-const int N = 3005, M = 1e6 + 9, OO = 0x3f3f3f3f;
+const int N = 3e3 + 9, M = 1e6 + 9, OO = 0x3f3f3f3f;
 const ll llOO = 0x3f3f3f3f3f3f3f3f;
 
-int grid[N][N], n, m, k;
+int n, m, k;
 
-ll dp[N][N][5];
+int grid[N][N];
+
+ll dp[N][N][4];
 
 ll solve(int i, int j, int cnt){
-    if(i == n)  return 0;
-    if(j == m)  return 0;
+    if(cnt == 3) return 0;
 
-    ll &ret = dp[i][j][cnt];
-    if(~ret)    return ret;
-
-
-    if(grid[i][j] && cnt < 3){
-        ret = max(ret, grid[i][j] + solve(i, j + 1, cnt + 1));
-        ret = max(ret, grid[i][j] + solve(i + 1, j, 0));
+    if(i == n || j == m){
+        return 0;
     }
-    ret = max(ret, solve(i, j + 1, cnt));
-    ret = max(ret, solve(i + 1, j, 0));
+
+    ll ret = grid[i][j] + max(solve(i + 1, j, 0), solve(i, j + 1, cnt + (grid[i][j] != 0)));
+
+    ret = max({ret, solve(i + 1, j, 0), solve(i, j + 1, cnt)});
 
     return ret;
 }
 
-int r, c, v;
+ll solve(){
+    for(int i = n;i >= 0;i--){
+        for(int j = m;j >= 0;j--){
+            for(int cnt = 3;cnt >= 0;cnt--){
+                ll &ret = dp[i][j][cnt];
 
-void go(int tc = 0){
-    cin >> n >> m >> k;
-    for(int i = 0;i < k;i++){
-        cin >> r >> c >> v;
-        r--, c--;
-        grid[r][c] = v;
+                if(i == n || j == m || cnt == 3){
+                    dp[i][j][cnt] = 0;
+                    continue;
+                }
+
+                ret = grid[i][j] + max(dp[i + 1][j][0], dp[i][j + 1][cnt + (grid[i][j] != 0)]);
+
+                ret = max({ret, dp[i + 1][j][0], dp[i][j + 1][cnt]});
+            }
+        }
     }
-
-    memset(dp, -1, sizeof dp);
-    cout << solve(0, 0, 0);
-
+    return dp[0][0][0];
 }
 
-int main(){
-    init();
+int main() {
+    cin.tie(0);
+    cin.sync_with_stdio(0);
 
-//    freopen("in.in", "r", stdin);
-//    freopen("out.out", "w", stdout);
+    cin >> n >> m >> k;
+    for(int i = 0;i < k;i++){
+        int x, y, v;
+        cin >> x >> y >> v;
+        x--, y--;
+        grid[x][y] = v;
+    }
 
-   int t = 1, tc = 1;
-//   cin >> t;
-    while(t--)
-        go(tc++);
+    cout << solve();
 }
