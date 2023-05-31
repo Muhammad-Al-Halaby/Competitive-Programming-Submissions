@@ -1,99 +1,59 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
-#define OnlineJudge1
-
-#define loop(a,n) for(int i = a;i<n;i++)
-#define NumofDigits(n) ((int)log10(n)+1)
-#define CountofNumber(array,n,x)  (upper_bound(array, array+n, x)-lower_bound(array, array+n, x))
-#define readline(s) getline(cin,s)
-#define PB push_back
-#define MP make_pair
-#define F first
-#define S second
-#define EPS 1e-7
 #define modulo ll (1e9 + 7)
-
+#define neig(a, u, e, v) for(int v, e = (a).head[u] ; ~e and (v = (a).to[e], 1) ; e = (a).nxt[e])
 
 typedef long long ll;
-typedef vector<int> vi;
-typedef pair<int,int> pi;
 
-void init(){
+const int N = 2e5 + 9, M = 1e6 + 9, OO = 0x3f3f3f3f;
+const ll llOO = 0x3f3f3f3f3f3f3f3f;
+
+// dp[i] = minimum number of steps to reach n, starting from i
+
+int n, h[N];
+
+int dp[N];
+
+int solve(int i){
+    if(i == n - 1)
+        return 0;
+
+    int &ret = dp[i];
+    if(~ret)    return ret;
+
+    ret = OO;
+    if(i + 1 < n)
+        ret = abs(h[i] - h[i + 1]) + solve(i + 1);
+    if(i + 2 < n)
+        ret = min(ret, abs(h[i] - h[i + 2]) + solve(i + 2));
+
+    return ret;
+}
+
+int solve(){
+    dp[n - 1] = 0;
+    for(int i = n - 1;i >= 0;i--){
+        int &ret = dp[i];
+        if(i + 1 < n) {
+            ret = abs(h[i] - h[i + 1]) + dp[i + 1];
+        }
+        if(i + 2 < n)
+            ret = min(ret, abs(h[i] - h[i + 2]) + dp[i + 2]);
+    }
+    return dp[0];
+}
+
+int main() {
     cin.tie(0);
     cin.sync_with_stdio(0);
-#ifdef OnlineJudge
-    freopen("in.in","r",stdin);
-    freopen("out.txt","w",stdout);
-#endif
-}
 
-//int dx[] = {-1,1,0,0};
-//int dy[] = {0,0,-1,1};
-
-//int dx[] = {-1,1,0,0,1,-1,1,-1};
-//int dy[] = {0,0,-1,1,1,-1,-1,1};
-
-//    int powres[] = {1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,65536,131072,262144,524288,1048576,2097152,4194304,8388608,16777216,33554432,67108864,134217728,268435456,536870912};
-
-ll power(ll b, ll p){
-    if(p == 0)return 1;
-    ll res = power(b,p/2);
-    res *= res;
-    if(p & 1)res *= b;
-    return res;
-}
-
-set<ll> factors;
-set<ll> divisors;
-
-void divide(ll n){
-    for(ll i = 2;i * i <= n;i++){
-        if(n % i == 0){
-            divisors.insert(i);
-            divisors.insert(n/i);
-
-        }
-    }
-}
-
-void factorize(ll n){
-        for(ll i = 2;i * i <= n;i++){
-        if(n % i == 0){
-            factors.insert(i);
-            while(n % i == 0)n /= i;
-        }
-    }
-    if(n != 1)factors.insert(n);
-}
-
-int Max = 1e7 + 5;
-int prime[(int)1e7+7];
-
-void sieve(){
-    prime[0] = prime[1] = 1;
-    for(ll i = 1;i<=Max;i++){
-        if(prime[i])
-            continue;
-        else{
-            for(ll j = i*i;j<=Max;j+=i)
-                prime[j] = 1;
-        }
-    }
-}
-
-int main(){
-    init();
-    int n;
     cin >> n;
-    int arr[n],dp[n] = {0};
-    for(int i = 0;i < n;i++){
-        cin >> arr[i];
-    }
-    for(int i = 1;i < n;i++){
-        dp[i] = dp[i-1] + abs(arr[i] - arr[i-1]);
-        if(i - 2 >= 0)
-            dp[i] = min(dp[i], dp[i-2] + abs(arr[i] - arr[i-2]));
-    }
-    cout << dp[n-1];
+    for(int i = 0;i < n;i++)
+        cin >> h[i];
+
+//    memset(dp, -1, sizeof dp);
+
+    cout << solve();
 }
