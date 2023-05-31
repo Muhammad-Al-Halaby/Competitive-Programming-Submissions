@@ -17,8 +17,9 @@ int n, k, a[N];
 int dp[N][64];
 
 int solve(int i, int and_sofar) {
-    if (i == n)
-        return __builtin_popcount(and_sofar) == k;
+    if (i == n) {
+        return (__builtin_popcount(and_sofar) == k);
+    }
 
     int &ret = dp[i][and_sofar];
     if (~ret) return ret;
@@ -30,23 +31,6 @@ int solve(int i, int and_sofar) {
     return ret;
 }
 
-int solve(){
-    for(int i = n;i >= 0;i--){
-        for(int and_sofar = 0;and_sofar < 64;and_sofar++){
-            int &ret = dp[i][and_sofar];
-
-            if(i == n){
-                ret = __builtin_popcount(and_sofar) == k;
-                continue;
-            }
-
-            ret = dp[i + 1][and_sofar] + dp[i + 1][and_sofar & a[i]];
-
-            ret %= modulo;
-        }
-    }
-    return dp[0][63];
-}
 int main() {
     cin.tie(0);
     cin.sync_with_stdio(0);
@@ -63,7 +47,6 @@ int main() {
         for (int i = 0; i < n; i++)
             cin >> a[i];
 
-//        cout << solve(0, 63) - (k == 6) << '\n';
-        cout << solve() - (k == 6) << '\n';
+        cout << solve(0, 63) - (k == 6) << '\n';
     }
 }
