@@ -3327,6 +3327,22 @@
     ],
     "timestamp": "May/27/2023 17:07"
   },
+  "AC41946362": {
+    "contest_id": "abc304",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc304\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Virus",
+    "problem_url": "https://atcoder.jp/contests/abc304/tasks/abc304_c",
+    "submission_id": "AC41946362",
+    "submission_url": "https://atcoder.jp/contests/abc304/submissions/41946362",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/03/2023 15:17"
+  },
   "AC41959529": {
     "contest_id": "abc304",
     "language": "C++ (GCC 9.2.1)",
