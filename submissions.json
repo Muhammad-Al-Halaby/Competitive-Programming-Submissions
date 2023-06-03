@@ -3327,6 +3327,22 @@
     ],
     "timestamp": "May/27/2023 17:07"
   },
+  "AC41934863": {
+    "contest_id": "abc304",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc304\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "First Player",
+    "problem_url": "https://atcoder.jp/contests/abc304/tasks/abc304_a",
+    "submission_id": "AC41934863",
+    "submission_url": "https://atcoder.jp/contests/abc304/submissions/41934863",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jun/03/2023 15:04"
+  },
   "AC41940387": {
     "contest_id": "abc304",
     "language": "C++ (GCC 9.2.1)",

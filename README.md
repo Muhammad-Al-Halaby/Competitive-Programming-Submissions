@@ -13,11 +13,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1200 | [F - Shift Table](https://atcoder.jp/contests/abc304/tasks/abc304_f) | [C++ (GCC 9.2.1)](./atcoder/abc304/F.cpp) | `AtCoder` `*525` | Jun/03/2023 17:27 | 
-1199 | [E - Good Graph](https://atcoder.jp/contests/abc304/tasks/abc304_e) | [C++ (GCC 9.2.1)](./atcoder/abc304/E.cpp) | `AtCoder` `*475` | Jun/03/2023 16:02 | 
-1198 | [D - A Piece of Cake](https://atcoder.jp/contests/abc304/tasks/abc304_d) | [C++ (GCC 9.2.1)](./atcoder/abc304/D.cpp) | `AtCoder` `*400` | Jun/03/2023 15:46 | 
-1197 | [C - Virus](https://atcoder.jp/contests/abc304/tasks/abc304_c) | [C++ (GCC 9.2.1)](./atcoder/abc304/C.cpp) | `AtCoder` `*300` | Jun/03/2023 15:17 | 
-1196 | [B - Subscribers](https://atcoder.jp/contests/abc304/tasks/abc304_b) | [C++ (GCC 9.2.1)](./atcoder/abc304/B.cpp) | `AtCoder` `*200` | Jun/03/2023 15:09 | 
+1201 | [F - Shift Table](https://atcoder.jp/contests/abc304/tasks/abc304_f) | [C++ (GCC 9.2.1)](./atcoder/abc304/F.cpp) | `AtCoder` `*525` | Jun/03/2023 17:27 | 
+1200 | [E - Good Graph](https://atcoder.jp/contests/abc304/tasks/abc304_e) | [C++ (GCC 9.2.1)](./atcoder/abc304/E.cpp) | `AtCoder` `*475` | Jun/03/2023 16:02 | 
+1199 | [D - A Piece of Cake](https://atcoder.jp/contests/abc304/tasks/abc304_d) | [C++ (GCC 9.2.1)](./atcoder/abc304/D.cpp) | `AtCoder` `*400` | Jun/03/2023 15:46 | 
+1198 | [C - Virus](https://atcoder.jp/contests/abc304/tasks/abc304_c) | [C++ (GCC 9.2.1)](./atcoder/abc304/C.cpp) | `AtCoder` `*300` | Jun/03/2023 15:17 | 
+1197 | [B - Subscribers](https://atcoder.jp/contests/abc304/tasks/abc304_b) | [C++ (GCC 9.2.1)](./atcoder/abc304/B.cpp) | `AtCoder` `*200` | Jun/03/2023 15:09 | 
+1196 | [A - First Player](https://atcoder.jp/contests/abc304/tasks/abc304_a) | [C++ (GCC 9.2.1)](./atcoder/abc304/A.cpp) | `AtCoder` `*100` | Jun/03/2023 15:04 | 
 1195 | [B - Array merging](https://codeforces.com/contest/1831/problem/B) | [GNU C++17](./codeforces/1831/B.cpp) | `constructive algorithms` `greedy` | May/28/2023 20:57 | 
 1194 | [C - Copil Copac Draws Trees](https://codeforces.com/contest/1831/problem/C) | [GNU C++17](./codeforces/1831/C.cpp) | `dfs and similar` `dp` | May/28/2023 20:57 | 
 1193 | [A - Twin Permutations](https://codeforces.com/contest/1831/problem/A) | [GNU C++17](./codeforces/1831/A.cpp) | `constructive algorithms` | May/28/2023 20:56 | 
