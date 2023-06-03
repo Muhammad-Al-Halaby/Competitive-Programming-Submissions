@@ -3327,6 +3327,22 @@
     ],
     "timestamp": "May/27/2023 17:07"
   },
+  "AC41979417": {
+    "contest_id": "abc304",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc304\\F.cpp",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Shift Table",
+    "problem_url": "https://atcoder.jp/contests/abc304/tasks/abc304_f",
+    "submission_id": "AC41979417",
+    "submission_url": "https://atcoder.jp/contests/abc304/submissions/41979417",
+    "tags": [
+      "AtCoder",
+      "*525"
+    ],
+    "timestamp": "Jun/03/2023 17:27"
+  },
   "AC4924890": {
     "contest_id": "abc102",
     "language": "C++14 (GCC 5.4.1)",
