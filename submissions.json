@@ -3327,6 +3327,22 @@
     ],
     "timestamp": "May/27/2023 17:07"
   },
+  "AC41964561": {
+    "contest_id": "abc304",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc304\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Good Graph",
+    "problem_url": "https://atcoder.jp/contests/abc304/tasks/abc304_e",
+    "submission_id": "AC41964561",
+    "submission_url": "https://atcoder.jp/contests/abc304/submissions/41964561",
+    "tags": [
+      "AtCoder",
+      "*475"
+    ],
+    "timestamp": "Jun/03/2023 16:02"
+  },
   "AC41979417": {
     "contest_id": "abc304",
     "language": "C++ (GCC 9.2.1)",
