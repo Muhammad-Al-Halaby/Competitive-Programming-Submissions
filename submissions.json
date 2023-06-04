@@ -8213,6 +8213,23 @@
     ],
     "timestamp": "May/28/2023 20:57"
   },
+  "CF208430206": {
+    "contest_id": 1839,
+    "language": "GNU C++17",
+    "path": "codeforces\\1839\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Lamps",
+    "problem_url": "https://codeforces.com/contest/1839/problem/B",
+    "submission_id": "CF208430206",
+    "submission_url": "https://codeforces.com/contest/1839/submission/208430206",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Jun/04/2023 16:43"
+  },
   "CF208536197": {
     "contest_id": 1828,
     "language": "GNU C++17",
