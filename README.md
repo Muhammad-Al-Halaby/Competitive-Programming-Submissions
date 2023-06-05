@@ -13,17 +13,18 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1212 | [F1 - Omsk Metro (simple version)](https://codeforces.com/contest/1843/problem/F1) | [GNU C++20 (64)](./codeforces/1843/F1.cpp) | `data structures` `dfs and similar` `dp` `greedy` `math` `trees` | Jun/21/2023 20:41 | 
-1211 | [E - Tracking Segments](https://codeforces.com/contest/1843/problem/E) | [GNU C++20 (64)](./codeforces/1843/E.cpp) | `binary search` `data structures` | Jun/21/2023 20:40 | 
-1210 | [D - Apple Tree](https://codeforces.com/contest/1843/problem/D) | [GNU C++20 (64)](./codeforces/1843/D.cpp) | `combinatorics` `dfs and similar` `dp` `trees` | Jun/21/2023 20:40 | 
-1209 | [C - Sum in Binary Tree](https://codeforces.com/contest/1843/problem/C) | [GNU C++20 (64)](./codeforces/1843/C.cpp) | `bitmasks` `math` `trees` | Jun/21/2023 20:40 | 
-1208 | [B - Long Long](https://codeforces.com/contest/1843/problem/B) | [GNU C++20 (64)](./codeforces/1843/B.cpp) | `greedy` `math` | Jun/21/2023 20:39 | 
-1207 | [A - Sasha and Array Coloring](https://codeforces.com/contest/1843/problem/A) | [GNU C++20 (64)](./codeforces/1843/A.cpp) | `greedy` `sortings` | Jun/21/2023 20:39 | 
-1206 | [E - Character Blocking](https://codeforces.com/contest/1840/problem/E) | [GNU C++20 (64)](./codeforces/1840/E.cpp) | `data structures` `hashing` `implementation` `*1600` | Jun/21/2023 20:39 | 
-1205 | [C - Ski Resort](https://codeforces.com/contest/1840/problem/C) | [GNU C++20 (64)](./codeforces/1840/C.cpp) | `combinatorics` `math` `two pointers` `*1000` | Jun/21/2023 20:38 | 
-1204 | [B - Binary Cafe](https://codeforces.com/contest/1840/problem/B) | [GNU C++20 (64)](./codeforces/1840/B.cpp) | `bitmasks` `combinatorics` `math` `*1100` | Jun/21/2023 20:38 | 
-1203 | [A - Cipher Shifer](https://codeforces.com/contest/1840/problem/A) | [GNU C++20 (64)](./codeforces/1840/A.cpp) | `implementation` `strings` `two pointers` `*800` | Jun/21/2023 20:38 | 
-1202 | [C - Almost All Multiples](https://codeforces.com/contest/1758/problem/C) | [GNU C++17](./codeforces/1758/C.cpp) | `greedy` `number theory` `*1400` | Jun/08/2023 19:00 | 
+1213 | [F1 - Omsk Metro (simple version)](https://codeforces.com/contest/1843/problem/F1) | [GNU C++20 (64)](./codeforces/1843/F1.cpp) | `data structures` `dfs and similar` `dp` `greedy` `math` `trees` | Jun/21/2023 20:41 | 
+1212 | [E - Tracking Segments](https://codeforces.com/contest/1843/problem/E) | [GNU C++20 (64)](./codeforces/1843/E.cpp) | `binary search` `data structures` | Jun/21/2023 20:40 | 
+1211 | [D - Apple Tree](https://codeforces.com/contest/1843/problem/D) | [GNU C++20 (64)](./codeforces/1843/D.cpp) | `combinatorics` `dfs and similar` `dp` `trees` | Jun/21/2023 20:40 | 
+1210 | [C - Sum in Binary Tree](https://codeforces.com/contest/1843/problem/C) | [GNU C++20 (64)](./codeforces/1843/C.cpp) | `bitmasks` `math` `trees` | Jun/21/2023 20:40 | 
+1209 | [B - Long Long](https://codeforces.com/contest/1843/problem/B) | [GNU C++20 (64)](./codeforces/1843/B.cpp) | `greedy` `math` | Jun/21/2023 20:39 | 
+1208 | [A - Sasha and Array Coloring](https://codeforces.com/contest/1843/problem/A) | [GNU C++20 (64)](./codeforces/1843/A.cpp) | `greedy` `sortings` | Jun/21/2023 20:39 | 
+1207 | [E - Character Blocking](https://codeforces.com/contest/1840/problem/E) | [GNU C++20 (64)](./codeforces/1840/E.cpp) | `data structures` `hashing` `implementation` `*1600` | Jun/21/2023 20:39 | 
+1206 | [C - Ski Resort](https://codeforces.com/contest/1840/problem/C) | [GNU C++20 (64)](./codeforces/1840/C.cpp) | `combinatorics` `math` `two pointers` `*1000` | Jun/21/2023 20:38 | 
+1205 | [B - Binary Cafe](https://codeforces.com/contest/1840/problem/B) | [GNU C++20 (64)](./codeforces/1840/B.cpp) | `bitmasks` `combinatorics` `math` `*1100` | Jun/21/2023 20:38 | 
+1204 | [A - Cipher Shifer](https://codeforces.com/contest/1840/problem/A) | [GNU C++20 (64)](./codeforces/1840/A.cpp) | `implementation` `strings` `two pointers` `*800` | Jun/21/2023 20:38 | 
+1203 | [C - Almost All Multiples](https://codeforces.com/contest/1758/problem/C) | [GNU C++17](./codeforces/1758/C.cpp) | `greedy` `number theory` `*1400` | Jun/08/2023 19:00 | 
+1202 | [C - Counting Orders](https://codeforces.com/contest/1828/problem/C) | [GNU C++17](./codeforces/1828/C.cpp) | `binary search` `combinatorics` `sortings` `*1100` | Jun/05/2023 05:14 | 
 1201 | [F - Shift Table](https://atcoder.jp/contests/abc304/tasks/abc304_f) | [C++ (GCC 9.2.1)](./atcoder/abc304/F.cpp) | `AtCoder` `*525` | Jun/03/2023 17:27 | 
 1200 | [E - Good Graph](https://atcoder.jp/contests/abc304/tasks/abc304_e) | [C++ (GCC 9.2.1)](./atcoder/abc304/E.cpp) | `AtCoder` `*475` | Jun/03/2023 16:02 | 
 1199 | [D - A Piece of Cake](https://atcoder.jp/contests/abc304/tasks/abc304_d) | [C++ (GCC 9.2.1)](./atcoder/abc304/D.cpp) | `AtCoder` `*400` | Jun/03/2023 15:46 | 
