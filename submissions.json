@@ -8213,6 +8213,23 @@
     ],
     "timestamp": "May/28/2023 20:57"
   },
+  "CF209013507": {
+    "contest_id": 1758,
+    "language": "GNU C++17",
+    "path": "codeforces\\1758\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Almost All Multiples",
+    "problem_url": "https://codeforces.com/contest/1758/problem/C",
+    "submission_id": "CF209013507",
+    "submission_url": "https://codeforces.com/contest/1758/submission/209013507",
+    "tags": [
+      "greedy",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jun/08/2023 19:00"
+  },
   "CF210576820": {
     "contest_id": 1840,
     "language": "GNU C++20 (64)",
