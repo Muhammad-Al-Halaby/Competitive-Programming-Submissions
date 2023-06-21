@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1203 | [F1 - Omsk Metro (simple version)](https://codeforces.com/contest/1843/problem/F1) | [GNU C++20 (64)](./codeforces/1843/F1.cpp) | `data structures` `dfs and similar` `dp` `greedy` `math` `trees` | Jun/21/2023 20:41 | 
-1202 | [E - Tracking Segments](https://codeforces.com/contest/1843/problem/E) | [GNU C++20 (64)](./codeforces/1843/E.cpp) | `binary search` `data structures` | Jun/21/2023 20:40 | 
+1204 | [F1 - Omsk Metro (simple version)](https://codeforces.com/contest/1843/problem/F1) | [GNU C++20 (64)](./codeforces/1843/F1.cpp) | `data structures` `dfs and similar` `dp` `greedy` `math` `trees` | Jun/21/2023 20:41 | 
+1203 | [E - Tracking Segments](https://codeforces.com/contest/1843/problem/E) | [GNU C++20 (64)](./codeforces/1843/E.cpp) | `binary search` `data structures` | Jun/21/2023 20:40 | 
+1202 | [D - Apple Tree](https://codeforces.com/contest/1843/problem/D) | [GNU C++20 (64)](./codeforces/1843/D.cpp) | `combinatorics` `dfs and similar` `dp` `trees` | Jun/21/2023 20:40 | 
 1201 | [F - Shift Table](https://atcoder.jp/contests/abc304/tasks/abc304_f) | [C++ (GCC 9.2.1)](./atcoder/abc304/F.cpp) | `AtCoder` `*525` | Jun/03/2023 17:27 | 
 1200 | [E - Good Graph](https://atcoder.jp/contests/abc304/tasks/abc304_e) | [C++ (GCC 9.2.1)](./atcoder/abc304/E.cpp) | `AtCoder` `*475` | Jun/03/2023 16:02 | 
 1199 | [D - A Piece of Cake](https://atcoder.jp/contests/abc304/tasks/abc304_d) | [C++ (GCC 9.2.1)](./atcoder/abc304/D.cpp) | `AtCoder` `*400` | Jun/03/2023 15:46 | 
