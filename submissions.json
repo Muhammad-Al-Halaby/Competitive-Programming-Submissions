@@ -8213,6 +8213,22 @@
     ],
     "timestamp": "May/28/2023 20:57"
   },
+  "CF210577051": {
+    "contest_id": 1843,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1843\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Tracking Segments",
+    "problem_url": "https://codeforces.com/contest/1843/problem/E",
+    "submission_id": "CF210577051",
+    "submission_url": "https://codeforces.com/contest/1843/submission/210577051",
+    "tags": [
+      "binary search",
+      "data structures"
+    ],
+    "timestamp": "Jun/21/2023 20:40"
+  },
   "CF210577103": {
     "contest_id": 1843,
     "language": "GNU C++20 (64)",
