@@ -8213,6 +8213,22 @@
     ],
     "timestamp": "May/28/2023 20:57"
   },
+  "CF210576973": {
+    "contest_id": 1843,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1843\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Long Long",
+    "problem_url": "https://codeforces.com/contest/1843/problem/B",
+    "submission_id": "CF210576973",
+    "submission_url": "https://codeforces.com/contest/1843/submission/210576973",
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "timestamp": "Jun/21/2023 20:39"
+  },
   "CF210576991": {
     "contest_id": 1843,
     "language": "GNU C++20 (64)",
