@@ -8213,6 +8213,26 @@
     ],
     "timestamp": "May/28/2023 20:57"
   },
+  "CF210577103": {
+    "contest_id": 1843,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1843\\F1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F1",
+    "problem_name": "Omsk Metro (simple version)",
+    "problem_url": "https://codeforces.com/contest/1843/problem/F1",
+    "submission_id": "CF210577103",
+    "submission_url": "https://codeforces.com/contest/1843/submission/210577103",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "math",
+      "trees"
+    ],
+    "timestamp": "Jun/21/2023 20:41"
+  },
   "CF24509061": {
     "contest_id": 766,
     "language": "GNU C++",
